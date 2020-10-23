@@ -1,0 +1,180 @@
+body {
+  background: #000;
+}
+
+.outer {
+  overflow: hidden;
+  width: 100px;
+}
+
+.inner {
+  border: 1px solid #000;
+}
+
+.inner i {
+  width: 12px;
+  height: 12px;
+  border: 1px solid #000;
+}
+
+.corner {
+  background-color: #9af7f0;
+}
+
+.corner-blue {
+  background-color: #4ddb48;
+}
+
+.inner .top {
+  margin-top: -11px;
+}
+
+.inner .bottom {
+  margin-top: -4px;
+}
+
+.inner .left {
+  float: left;
+  margin-left: -10px;
+}
+
+.inner .right {
+  float: right;
+  margin-right: -12px;
+}
+
+.container {
+  background: #9af7f0;
+  position: relative;
+  margin: 30px auto;
+  min-height: 90vh;
+}
+
+.brickwork {
+  position: absolute;
+  display: flex;
+  overflow: hidden;
+}
+
+.brickwork.first {
+  top: 280px;
+  left: 58px;
+}
+
+.brickwork.second {
+  top: 178px;
+  left: 370px;
+}
+
+.brickwork.third {
+  bottom: 114px;
+  right: 280px;
+}
+
+.brickwork.four {
+  right: 50px;
+  top: 115px;
+}
+
+.box-shadow-xs {
+  -webkit-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  box-shadow: 20px 30px 5px 5px rgb(0, 0, 0),
+    rgba(229, 154, 93, 1) -3px -3px 3px 3px inset;
+}
+
+.box-shadow-sm {
+  -webkit-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  box-shadow: 20px 30px 5px 5px rgb(0, 0, 0),
+    rgba(96, 170, 211, 1) -3px -3px 3px 3px inset;
+}
+
+.box-shadow-xl {
+  -webkit-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  -moz-box-shadow: 24px 6px 11px 2px rgba(0, 0, 0, 1);
+  box-shadow: 20px 30px 5px 5px rgb(0, 0, 0),
+    rgba(71, 157, 21, 1) -3px -3px 3px 3px inset;
+}
+
+.brick {
+  width: 50px;
+  height: 50px;
+  background: #f5973a;
+  border: 2px solid #000;
+}
+
+.brick-sm {
+  background: rgb(168, 228, 252);
+  position: absolute;
+  bottom: 0;
+  right: 45px;
+}
+
+.content-sm {
+  width: 195px;
+  height: 195px;
+}
+
+.brick-xl {
+  background: #4ddb48;
+  position: absolute;
+  bottom: 0;
+  left: 248px;
+}
+
+.content-xl {
+  width: 195px;
+  height: 255px;
+}
+
+.content-xs {
+  width: 150px;
+  height: 150px;
+}
+
+.brick-xs {
+  background: #f7bcb0;
+  position: absolute;
+  bottom: 0;
+  left: 175px;
+}
+
+.screw.s-top {
+  position: absolute;
+  top: -1px;
+  right: 21px;
+}
+
+.screw.s-left {
+  position: absolute;
+  bottom: 21px;
+  right: 19px;
+}
+
+.screw.s-bottom {
+  position: absolute;
+  bottom: 21px;
+  left: 3px;
+}
+
+.screw.s-right {
+  position: absolute;
+  top: -2px;
+  left: 2px;
+}
+
+.screw {
+  box-shadow: 6px 6px 0 0 #000000, 9px 6px 0 0 #000000, 12px 6px 0 0 #000000,
+    3px 9px 0 0 #000000, 6px 9px 0 0 rgba(155, 218, 206, 1),
+    9px 9px 0 0 rgba(155, 218, 206, 1), 12px 9px 0 0 #000000,
+    15px 9px 0 0 #000000, 3px 12px 0 0 #000000,
+    6px 12px 0 0 rgba(155, 218, 206, 1), 9px 12px 0 0 #000000,
+    12px 12px 0 0 rgba(155, 218, 206, 1), 15px 12px 0 0 #000000,
+    3px 15px 0 0 #000000, 6px 15px 0 0 #000000,
+    9px 15px 0 0 rgba(155, 218, 206, 1), 12px 15px 0 0 rgba(155, 218, 206, 1),
+    15px 15px 0 0 #000000, 6px 18px 0 0 #000000, 9px 18px 0 0 #000000,
+    12px 18px 0 0 #000000;
+  height: 3px;
+  width: 3px;
+}
